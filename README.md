@@ -4,7 +4,7 @@ PhoneGap
 #Getting Started
 This tutorial will guide you through how to setup Cordova (aka PhoneGap) and the [Ionic Framework](http://ionicframework.com) to create a simple ToDo app.
 
-*What is Cordova?*
+#####What is Cordova?
 PhoneGap/Cordova is a simple but powerful API to call Javascript functions that map to native code or plugins. This means you can transfer any kind of data from native land into web land. [Reference](http://ionicframework.com/blog/what-is-cordova-phonegap/)
 
 
@@ -40,6 +40,7 @@ Now that we have all the required software installed, lets get started building 
 Run the following commands:
 ```
 $ git clone https://github.com/WomenWhoCode/PhoneGap.git
+$ cd todo
 $ cordova platform add ios
 $ cordova build ios
 $ cordova emulate ios
