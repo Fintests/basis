@@ -2,7 +2,7 @@ PhoneGap
 ==========================
 
 #Getting Started
-This tutorial goes through a basic setup of PhoneGap example.
+This tutorial goes through a basic setup of PhoneGap/Cordova example.
 
 
 ###Prerequisites
@@ -16,12 +16,17 @@ Once Xcode is installed, several command-line tools need to be enabled for Cordo
 [Instructions for Android SDK](http://docs.phonegap.com/en/edge/guide_platforms_android_index.md.html#Android%20Platform%20Guide)
 The setup for Android SDK is a little more complicated than iOS, follow the instructions in the link above.
 
-####Install PhoneGap/Cordova
+####Install Cordova
 ```
 sudo npm install -g cordova
 ```
 
-
+###  A Hello World Example
+$ cordova create hello com.example.hello "HelloWorld"
+$ cd hello
+$ cordova platform add ios
+$ cordova build
+$ cordova run ios
 
 
 ## Reference
