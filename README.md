@@ -37,16 +37,18 @@ sudo npm install -g cordova
 ## The ToDo App Tutorial
 Now that we have all the required software installed, lets get started building our ToDo App!
 
+Run the following commands:
 ```
-$ git clone xx
+$ git clone https://github.com/WomenWhoCode/PhoneGap.git
 $ cordova platform add ios
 $ cordova build ios
 $ cordova emulate ios
 ```
 Swap ios with android if that's your preferred platform.
 
-http://ionicframework.com/docs/guide/starting.html
+Great! You should have a very basic Corodva app up and running, now lets turn it into a ToDo app by working our way through the Ionic Guid [here](http://ionicframework.com/docs/guide/starting.html).
 
+If you need to peek at what the code for the final app looks like, then you can check out this [repo]().
 
 ###  Cordova Command Line Cheatsheet
 ```
