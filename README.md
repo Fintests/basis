@@ -2,9 +2,10 @@ PhoneGap
 ==========================
 
 #Getting Started
-PhoneGap/Cordova is a simple but powerful API to call Javascript functions that map to native code or plugins. This means you can transfer any kind of data from native land into web land. [Reference](http://ionicframework.com/blog/what-is-cordova-phonegap/)
+This tutorial will guide you through how to setup Cordova (aka PhoneGap) and the [Ionic Framework](http://ionicframework.com) to create a simple ToDo app.
 
-This tutorial goes through a basic setup of a Cordova app.
+* What is Cordova? *
+PhoneGap/Cordova is a simple but powerful API to call Javascript functions that map to native code or plugins. This means you can transfer any kind of data from native land into web land. [Reference](http://ionicframework.com/blog/what-is-cordova-phonegap/)
 
 
 ## Prerequisites
@@ -33,15 +34,28 @@ The setup for Android SDK is a little more complicated than iOS, follow the inst
 sudo npm install -g cordova
 ```
 
-###  A Hello World Example
+## The ToDo App Tutorial
+Now that we have all the required software installed, lets get started building our ToDo App!
+
 ```
-$ cordova create hello com.example.hello "HelloWorld"
-$ cd hello
+$ git clone xx
 $ cordova platform add ios
 $ cordova build ios
 $ cordova emulate ios
 ```
+Swap ios with android if that's your preferred platform.
 
+http://ionicframework.com/docs/guide/starting.html
+
+
+###  Cordova Command Line Cheatsheet
+```
+$ cordova create hello com.example.hello "HelloWorld" -- creates a new cordova app
+$ cd hello
+$ cordova platform add ios -- adds sdks, can also use add android
+$ cordova build ios -- generates platform specific files eg xcodeproj files
+$ cordova emulate ios -- runs app on emulator
+```
 
 ## Reference
 [What is the difference between PhoneGap and Cordova](http://ionicframework.com/blog/what-is-cordova-phonegap/)
