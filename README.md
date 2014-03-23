@@ -7,6 +7,7 @@ This tutorial goes through a basic setup of PhoneGap/Cordova example.
 
 ###Prerequisites
 [Install NodeJS](http://nodejs.org/)
+
 Or if you already have node installed, then upgrade to the latest version if you haven't already:
 ```
 sudo npm cache clean -f
@@ -32,8 +33,8 @@ sudo npm install -g cordova
 $ cordova create hello com.example.hello "HelloWorld"
 $ cd hello
 $ cordova platform add ios
-$ cordova build
-$ cordova run ios
+$ cordova build ios
+$ cordova emulate ios
 ```
 
 
