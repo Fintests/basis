@@ -7,6 +7,12 @@ This tutorial goes through a basic setup of PhoneGap/Cordova example.
 
 ###Prerequisites
 [Install NodeJS](http://nodejs.org/)
+Or if you already have node installed, then upgrade to the latest version if you haven't already:
+```
+sudo npm cache clean -f
+sudo npm install -g n
+sudo n stable
+```
 
 #### Install iOS SDKs
 [Install XCode](https://itunes.apple.com/us/app/xcode/id497799835?mt=12)
