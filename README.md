@@ -2,7 +2,9 @@ PhoneGap
 ==========================
 
 #Getting Started
-This tutorial goes through a basic setup of PhoneGap/Cordova example.
+PhoneGap/Cordova is a simple but powerful API to call Javascript functions that map to native code or plugins. This means you can transfer any kind of data from native land into web land. [Reference](http://ionicframework.com/blog/what-is-cordova-phonegap/)
+
+This tutorial goes through a basic setup of a Cordova app.
 
 
 ###Prerequisites
