@@ -4,9 +4,17 @@ PhoneGap
 #Getting Started
 This tutorial goes through a basic setup of PhoneGap example.
 
+
 ##Prerequisites
 
-NodeJS
+[Install NodeJS](http://nodejs.org/)
+
+### Install iOS SDKs
+[Install XCode](https://itunes.apple.com/us/app/xcode/id497799835?mt=12)
+Once Xcode is installed, several command-line tools need to be enabled for Cordova to run. From the Xcode menu, select Preferences, then the Downloads tab. From the Components panel, press the Install button next to the Command Line Tools listing.
+
+### Install Android SDKs
+
 
 ##Install PhoneGap
 ```
