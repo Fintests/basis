@@ -2,6 +2,7 @@ PhoneGap
 ==========================
 
 #Getting Started
+This tutorial goes through a basic setup of PhoneGap example.
 
 ##Prerequisites
 
@@ -23,3 +24,6 @@ cd HelloWorld
 phonegap build ios
 phonegap run ios
 ```
+
+## Reference
+[What is the difference between PhoneGap and Cordova](http://ionicframework.com/blog/what-is-cordova-phonegap/)
