@@ -7,6 +7,11 @@ This tutorial will guide you through how to setup Cordova (aka PhoneGap) and the
 #####What is Cordova?
 PhoneGap/Cordova is a simple but powerful API to call Javascript functions that map to native code or plugins. This means you can transfer any kind of data from native land into web land. [Reference](http://ionicframework.com/blog/what-is-cordova-phonegap/)
 
+## ToDo App
+* follow tutorial to build basic todo app
+* add some RESTful web services in any language which store tasks in monogoDB
+* deploy web services to heroku
+* update app to call webservices
 
 ## Prerequisites
 [Install NodeJS](http://nodejs.org/)
