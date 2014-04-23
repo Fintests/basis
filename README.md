@@ -39,22 +39,19 @@ The setup for Android SDK is a little more complicated than iOS, follow the inst
 sudo npm install -g cordova
 ```
 
-## The ToDo App Tutorial
-Now that we have all the required software installed, lets get started building our ToDo App!
+### Hello World Cordova
+Create a simple hellow world app to test its all working. The emulator make take a bit of time to start up for the first time. 
 
-Run the following commands:
 ```
-$ git clone https://github.com/WomenWhoCode/PhoneGap.git
-$ cd todo
-$ cordova platform add ios
-$ cordova build ios
-$ cordova emulate ios
+cordova create helloWorld
+cordova build ios -- swap with android if required
+cordova run ios
 ```
-Swap ios with android if that's your preferred platform.
+
+## The ToDo App Tutorial
+Now that we have all the required software installed, lets get started building our ToDo App with Ionic!
 
 Great! You should have a very basic Corodva app up and running, now lets turn it into a ToDo app by working our way through the Ionic Guid [here](http://ionicframework.com/docs/guide/starting.html).
-
-If you need to peek at what the code for the final app looks like, then you can check out this [repo]().
 
 ###  Cordova Command Line Cheatsheet
 ```
