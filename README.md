@@ -95,6 +95,11 @@ to
 ```
 Make a new file in `www/js` called `ionic.bundle.js`. Copy all the code from [ionic.bundle.js](https://raw.githubusercontent.com/driftyco/ionic/master/release/js/ionic.bundle.js) into your new file.
 
+## Fonts
+You need to include the font icons so you get nice little buttons to click on :)
+
+Create a new `fonts` directory.
+Get the [font](https://github.com/driftyco/ionic/raw/master/release/fonts/ionicons.ttf) and put it in the `fonts` directory.
 
 ## To run your app in a browser
 ```
