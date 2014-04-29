@@ -101,6 +101,11 @@ You need to include the font icons so you get nice little buttons to click on :)
 Create a new `fonts` directory.
 Get the [font](https://github.com/driftyco/ionic/raw/master/release/fonts/ionicons.ttf) and put it in the `fonts` directory.
 
+## To run your app in a browser
+```
+$ python -m SimpleHTTPServer
+```
+
 ## Show the modal and list at the same time
 The tutorial tells you to replace all the `Center content` with
 ```
