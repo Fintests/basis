@@ -98,5 +98,5 @@ Make a new file in `www/js` called `ionic.bundle.js`. Copy all the code from [io
 
 ## To run your app in a browser
 ```
-$ pythong -m SimpleHTTPServer
+$ python -m SimpleHTTPServer
 ```
