@@ -91,6 +91,6 @@ Change
 ```
 to
 ```
-<link href="lib/ionic/js/ionic.bundle.js" rel="stylesheet">
+<link href="js/ionic.bundle.js" rel="stylesheet">
 ```
 Make a new file in `www/js` called `ionic.css`. Copy all the code from [ionic.bundle.js](https://raw.githubusercontent.com/driftyco/ionic/master/release/js/ionic.bundle.js) into your new file.
