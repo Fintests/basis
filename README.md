@@ -80,11 +80,6 @@ Change
 to
 ```
 <link href="css/ionic.css" rel="stylesheet">
-
-## To run your app in a browser
-```
-$ pythong -m SimpleHTTPServer
-```
 ```
 Make a new file in `www/js` called `ionic.css`. Copy all the code from [ionic.css](https://raw.githubusercontent.com/driftyco/ionic/master/release/css/ionic.css) into your new file.
 
@@ -100,3 +95,8 @@ to
 ```
 Make a new file in `www/js` called `ionic.bundle.js`. Copy all the code from [ionic.bundle.js](https://raw.githubusercontent.com/driftyco/ionic/master/release/js/ionic.bundle.js) into your new file.
 
+
+## To run your app in a browser
+```
+$ pythong -m SimpleHTTPServer
+```
