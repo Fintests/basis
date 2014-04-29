@@ -40,7 +40,7 @@ $ sudo npm install -g cordova
 ```
 
 ### Hello World Cordova
-Create a simple hello world app to test its all working. The emulator make take a bit of time to start up for the first time. 
+Create a simple hello world app to test its all working. The emulator make take a bit of time to start up for the first time.
 
 You should see the Cordova logo and "Device is Ready" displayed on the emulate.
 
@@ -68,3 +68,29 @@ $ cordova emulate ios -- runs app on emulator
 
 ## Reference
 [What is the difference between PhoneGap and Cordova](http://ionicframework.com/blog/what-is-cordova-phonegap/)
+
+
+# Updates to the tutorial
+## ionic.css
+
+Change
+```
+<link href="lib/ionic/css/ionic.css" rel="stylesheet">
+```
+to
+```
+<link href="css/ionic.css" rel="stylesheet">
+```
+Make a new file in `www/js` called `ionic.css`. Copy all the code from [ionic.css](https://raw.githubusercontent.com/driftyco/ionic/master/release/css/ionic.css) into your new file.
+
+## ionic.bundle.js
+
+Change
+```
+<link href="lib/ionic/js/ionic.bundle.js" rel="stylesheet">
+```
+to
+```
+<link href="lib/ionic/js/ionic.bundle.js" rel="stylesheet">
+```
+Make a new file in `www/js` called `ionic.css`. Copy all the code from [ionic.bundle.js](https://raw.githubusercontent.com/driftyco/ionic/master/release/js/ionic.bundle.js) into your new file.
