@@ -91,6 +91,44 @@ Change
 ```
 to
 ```
-<link href="lib/ionic/js/ionic.bundle.js" rel="stylesheet">
+<script src="js/ionic.bundle.js"></script>
 ```
 Make a new file in `www/js` called `ionic.bundle.js`. Copy all the code from [ionic.bundle.js](https://raw.githubusercontent.com/driftyco/ionic/master/release/js/ionic.bundle.js) into your new file.
+
+## Show the modal and list at the same time
+The tutorial tells you to replace all the `Center content` with
+```
+<!-- Center content -->
+<ion-side-menu-content>
+  <ion-header-bar class="bar-dark">
+    <h1 class="title">Todo</h1>
+    <!-- New Task button-->
+    <button class="button button-icon" ng-click="newTask()">
+      <i class="icon ion-compose"></i>
+    </button>
+  </ion-header-bar>
+</ion-side-menu-content>
+<!-- ... -->
+```
+However that doesn't include the code to display the list of all the todo items. Update the previous code with:
+```
+<!-- Center content -->
+<ion-side-menu-content>
+  <ion-header-bar class="bar-dark">
+    <h1 class="title">Todo</h1>
+    <!-- New Task button-->
+    <button class="button button-icon" ng-click="newTask()">
+      <i class="icon ion-compose"></i>
+    </button>
+  </ion-header-bar>
+  <ion-content>
+    <!-- our list and list items -->
+    <ion-list>
+      <ion-item ng-repeat="task in tasks">
+        {{task.title}}
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-side-menu-content>
+```
+which includes the list of tasks.
